@@ -140,13 +140,13 @@ The bins used to compute the model rate maps will be printed out for convenience
 Note by default, the minimum and maximum height and width of the arena are set to be [-h/2, h/2] and [-w/2, w/2], respectively.
 
 If you prefer a different environment extent, pass in `min_x`, `max_x`, `min_y`, and `max_y` into `configure_options()` in units of meters.
-If you prefer a different number of bins, pass in `nbins` to `get_fits()`, and if prefer to use a different number of centimeters per bin (default is 5 cm), pass in `bin_cm`.
+If you prefer a different number of bins, pass in `nbins` to `get_fits()`, and if you prefer to use a different number of centimeters per bin (default is 5 cm), pass in `bin_cm`.
 
 Finally, if you prefer to pass in a custom model binned response, of shape `(num_x_bins, num_y_bins, num_units)`, you can do that via the argument `model_resp`, instead of passing in the `model` object and its environment configuration.
 
 ## Cite
 
-If you used this dataset or codebase for your research, please consider citing our paper:
+If you used this codebase for your research, please consider citing our paper:
 ```
 @inproceedings{mectask2021,
     title={Explaining heterogeneity in medial entorhinal cortex with task-driven neural networks},
