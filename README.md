@@ -8,11 +8,17 @@
 
 ## Getting started
 
-First clone this repo, then install dependencies
+It is recommended that you install this repo within a virtual environment (Python 3.6 recommended), and run inferences there.
+An example command for doing this with `anaconda` would be:
 ```
-pip install -r requirements.txt
+conda create -y -n your_env python=3.6.10 anaconda
 ```
-We recommend Python 3.6 if you run the above requirements file.
+To install this package and all of its dependecies, clone this repo on your machine and then install it via pip:
+```
+git clone https://github.com/neuroailab/mec
+cd mec/
+pip install -e .
+```
 
 ## Training code
 
